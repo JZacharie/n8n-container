@@ -15,4 +15,4 @@ ENV N8N_RELEASE_TYPE=${N8N_RELEASE_TYPE}
 ENV SHELL=/bin/sh
 WORKDIR /home/node
 USER node
-ENTRYPOINT ["tini" "--" "/docker-entrypoint.sh"]
+# ENTRYPOINT ["tini" "--" "/docker-entrypoint.sh"]
